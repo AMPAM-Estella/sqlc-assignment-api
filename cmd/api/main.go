@@ -109,7 +109,7 @@ func LoadConfig(cfg *Config) error {
 
 	return nil
 }
-
+// Just adding random text to perform a pull request.
 // getPostgresConnectionURL constructs the PostgreSQL connection URL from the provided configuration.
 func getPostgresConnectionURL(config DBConfig) string {
 	queryValues := url.Values{}
