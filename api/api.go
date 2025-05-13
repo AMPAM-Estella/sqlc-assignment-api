@@ -19,7 +19,6 @@ func NewMessageHandler(querier repo.Querier) *MessageHandler {
 		querier: querier,
 	}
 }
-
 func (h *MessageHandler) WireHttpHandler() http.Handler {
 
 	r := gin.Default()
